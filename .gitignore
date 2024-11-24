@@ -1,0 +1,7 @@
+fvp.exe
+graph/*
+graph_d/*
+__pycache__/*
+*.txt
+*.hcb
+*.json
