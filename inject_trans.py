@@ -27,5 +27,5 @@ for i in range(len(new_file)):
     new_trans_file.write(transtext + "\n")
 new_trans_file.close()
 
-#HCB_Compiler(new_trans).compile(os.path.join("release", new_trans.replace(".txt", ".bch")))
-HCB_Compiler(new_trans).compile(os.path.join("release", "snow.hcb"))
+HCB_Compiler(new_trans).compile(os.path.join("release", new_trans.replace(".txt", ".bch")))
+#HCB_Compiler(new_trans).compile(os.path.join("release", "snow.hcb"))
